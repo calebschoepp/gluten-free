@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-theme="lemonade">
+
+<head>
+    {{! Use the formatter.title and formatter.description in the head }}
+    <title>{{page.head.title}} | {{site.info.title}}</title>
+    {{#if page.head.description}}
+    {{! Only render the description if it exists }}
+    <meta name="description" content="{{page.head.description}}">
+    {{/if}}
+
+    <!-- TODO: Don't load this from CDN -->
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+    <!-- Configure TailwindCSS -->
+    <style type="text/tailwindcss">
+    </style>
+</head>
+
+<body>
+    <div class="flex flex-col min-h-screen">
+        <div
+            class="sticky top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 bg-base-100 text-base-content shadow-md">
+            <nav class="navbar w-full">
+                <div class="flex-1">
+                    <a href="/" class="btn btn-ghost text-2xl font-bold">Gluten-Free Favorites</a>
+                </div>
+                <div class="flex-none">
+                    <div class="join">
+                        <a href="/about" class="btn btn-ghost join-item">About</a>
+                        <a href="/regions" class="btn btn-ghost join-item">Regions</a>
+                        <a href="/map" class="btn btn-ghost join-item">Map</a>
+                        <a href="/favorites" class="btn btn-ghost join-item">Favorites</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <main>

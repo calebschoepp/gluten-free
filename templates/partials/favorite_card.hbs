@@ -1,0 +1,21 @@
+<a href="{{uri}}" class="card card-compact bg-base-100 shadow-xl">
+    <figure><img src="{{page.head.extra.cover_image}}" alt="{{page.head.title}}" /></figure>
+    <div class="card-body">
+        <h2 class="card-title">{{page.head.title}}</h2>
+        <div class="flex flex-row flex-wrap justify-start content-center gap-2">
+            <div class="badge badge-ghost gap-x-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="inline-block w-4 h-4 stroke-current">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                {{region_code_to_name page.head.extra.region_code}}
+            </div>
+            <div class="badge badge-ghost">
+                {{page.head.extra.type}}
+            </div>
+            {{{gf_level_badge page.head.extra.gf_level}}}
+        </div>
+    </div>
+</a>

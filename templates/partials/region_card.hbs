@@ -1,0 +1,11 @@
+<a href="{{uri}}" class="card card-compact bg-base-100 shadow-xl">
+    <figure><img src="{{page.head.extra.cover_image}}" alt="{{page.head.title}}" /></figure>
+    <div class="card-body">
+        <h2 class="card-title">{{page.head.title}}</h2>
+        <div class="badge badge-ghost">
+            {{!-- TODO: This is SUPER in-efficient doing this count twice and dynamically --}}
+            {{ count_favorites ../site.pages page }} {{plural (count_favorites ../site.pages page) "Favorite"
+            "Favorites"}}
+        </div>
+    </div>
+</a>

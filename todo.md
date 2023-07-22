@@ -1,0 +1,5 @@
+- Add tags to all pages
+- Store `last_visited` extra in a more universal format that I can format at the destination
+- Decide what I want to do about `date` field on all content
+- Figure out why navbar blur isn't working
+- Deduplicate html templating for badges on favorite page and favorites page

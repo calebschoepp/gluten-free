@@ -1,12 +1,13 @@
-title = "Your Site Name"
-# logo = "URL to logo"
+title = "Gluten-Free Favorites"
+# logo = "URL to logo" TODO
 base_url = "http://localhost:3000"
-about = "This site is generated with Bartholomew, the WebAssembly micro-CMS. And this message is in site.toml."
-index_site_pages = ["blog"]
+about = "TODO"
+index_site_pages = ["regions", "favorites", "region"]
+# Enable gzip content encoding for all HTML. This speeds up transfer.
+content_encoding = "gzip"
 
 [extra]
-copyright = "The Site Authors"
-github = "https://github.com/fermyon"
-twitter = "https://twitter.com/fermyontech"
+copyright = "Caleb Schoepp"
+keywords = "glutenfree, gluten-free, gf, travel"
 
 date_style = "%B %e, %Y"

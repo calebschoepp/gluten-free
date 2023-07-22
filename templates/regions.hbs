@@ -1,0 +1,9 @@
+{{> partials/content_top }}
+
+<div class="m-10 grid grid-cols-4 gap-10">
+    {{#each (regions site.pages)}}
+    {{> partials/region_card uri page }}
+    {{/each }}
+</div>
+
+{{> partials/content_bottom }}
