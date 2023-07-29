@@ -3,3 +3,4 @@
 - Decide what I want to do about `date` field on all content
 - Figure out why navbar blur isn't working
 - Deduplicate html templating for badges on favorite page and favorites page
+- Make location bags links
