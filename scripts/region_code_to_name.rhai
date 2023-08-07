@@ -1,7 +1,11 @@
 let region_code = params[0];
 
 let code_to_name = #{
+    "bergen-norway": "Bergen, Norway",
+    "copenhagen-denmark": "Copenhagen, Denmark",
+    "gothenburg-sweden": "Gothenburg, Sweden",
     "helsinki-finland": "Helsinki, Finland",
+    "oslo-norway": "Oslo, Norway",
     "stockholm-sweden": "Stockholm, Sweden",
 };
 
