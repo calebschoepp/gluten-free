@@ -4,3 +4,4 @@
 - Figure out why navbar blur isn't working
 - Deduplicate html templating for badges on favorite page and favorites page
 - Make location bags links
+- Add descriptions to all pages

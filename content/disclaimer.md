@@ -1,5 +1,4 @@
-title = "Disclaimer"
-description = "TODO: Describe me better"
+title = "Gluten-Free Favorites Disclaimer"
 template = "prose"
 enable_shortcodes = true
 
