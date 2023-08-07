@@ -1,6 +1,6 @@
 {{> partials/content_top }}
 
-<div class="m-10 grid grid-cols-4 gap-10">
+<div class="m-10 grid grid-cols-5 gap-10">
     {{#each (filtered_favorites site.pages page.head.extra.region_code)}}
     {{> partials/favorite_card uri page }}
     {{/each }}
